@@ -16,6 +16,7 @@ public final class MessageInputBar: UIView {
     
     private lazy var container: UIStackView = {
         let view = UIStackView()
+        view.translatesAutoresizingMaskIntoConstraints = false
         view.axis = .horizontal
         view.spacing = 12
         view.isLayoutMarginsRelativeArrangement = true
@@ -39,6 +40,7 @@ public final class MessageInputBar: UIView {
     
     private lazy var functionArea: UIStackView = {
         let view = UIStackView()
+        view.translatesAutoresizingMaskIntoConstraints = false
         view.axis = .horizontal
         view.alignment = .bottom
         view.spacing = 8
@@ -49,6 +51,7 @@ public final class MessageInputBar: UIView {
     
     private lazy var controlArea: UIStackView = {
         let view = UIStackView()
+        view.translatesAutoresizingMaskIntoConstraints = false
         view.axis = .horizontal
         view.alignment = .bottom
         view.spacing = 8
@@ -186,6 +189,7 @@ extension MessageInputBar {
         ])
                 
         let leadingPart = UIStackView()
+        leadingPart.translatesAutoresizingMaskIntoConstraints = false
         leadingPart.axis = .horizontal
         leadingPart.spacing = 12
         leadingPart.backgroundColor = .systemGray6
