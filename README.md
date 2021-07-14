@@ -10,6 +10,10 @@ It provides some basic features like following:
 * Handle with the height of input bar automatically.
 * Enhance capability of input bar by adding any element you want.
 
+## Example
+
+<img src="https://user-images.githubusercontent.com/6101691/125613053-9c93854d-87ec-4c2e-8869-e9c383a97ace.gif" width="35%" height="35%" />
+
 ## How to use?
 
 Create some elements then add them to input bar.
