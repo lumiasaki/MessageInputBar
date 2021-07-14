@@ -47,7 +47,6 @@ do {
         
         self.viewModel.selectPhoto()
     }
-    ![Uploading example_message_inputbar.gif…]()
 
     inputBar.add(element: element, at: .functionLocation)
 }
