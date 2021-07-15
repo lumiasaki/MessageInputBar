@@ -16,4 +16,4 @@ jobs:
     - name: Generate
       run: swift package generate-xcodeproj
     - name: Build
-      run: xcodebuild build -sdk iphoneos -scheme 'SceneBox-Package'
+      run: xcodebuild build -sdk iphoneos -scheme 'MessageInputBar-Package'
