@@ -47,6 +47,7 @@ do {
         
         self.viewModel.selectPhoto()
     }
+    
     inputBar.add(element: element, at: .functionLocation)
 }
 
